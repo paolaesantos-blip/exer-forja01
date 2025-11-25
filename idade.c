@@ -2,9 +2,13 @@
 #include<stdlib.h>
 
 int main(){
-    printf('Qual a sua idade?:');
-    scanf("%d", & idade);
+
+    int idade;
+
+    printf("qual é a sua idade?: ");
+    scanf("%d", &idade);
     printf("A idade informada foi: %d \n", idade);
 
     system("pause");
     return 0;
+}

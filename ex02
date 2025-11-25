@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+
+    char cidade[50], estado[50];
+    int nasc, resposta;
+
+    printf("Qual sua cidade: ");
+    fgets(cidade, 50, stdin);
+
+    printf("Digite sua cidade: ");
+    fgets(estado, 50, stdin);
+
+     printf("Qual seu nascimento: ");
+     scanf("%d", &nasc);
+
+     resposta = 2025 - nasc;
+
+     printf("Você nasceu em %se tem %d anos. \n", cidade, estado, resposta);
+
+  
+    system("pause");
+    return 0;
+}
